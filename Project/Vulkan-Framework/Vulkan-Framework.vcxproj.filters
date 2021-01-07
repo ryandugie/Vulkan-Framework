@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d0589bdb-f7fb-4a56-9291-079992bb522a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{475224c4-dbf3-424a-bee3-53334c045273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{fca5f873-cbfd-4139-ad97-8647a373bfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan">
+      <UniqueIdentifier>{f903d79b-a92e-495b-b20d-e29bb0077720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Buffer">
+      <UniqueIdentifier>{a78e1630-0e12-4200-8523-9e53cc9f0033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\CommandBuffer">
+      <UniqueIdentifier>{adaf5203-4f20-4f77-9dcb-75591014a036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\CommandPool">
+      <UniqueIdentifier>{98275f86-7fd2-4ecd-818b-ca7e144b2c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug\VKMessenger">
+      <UniqueIdentifier>{3a48cb32-9a1f-456f-aa58-3c543b37559a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\DescriptorPool">
+      <UniqueIdentifier>{dd1b16ea-d7ec-407b-ab31-76dea0ab1f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\DescriptorSet">
+      <UniqueIdentifier>{9a0bc1dd-d050-4ae0-8f11-165c8c6137c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Device">
+      <UniqueIdentifier>{7790dbae-3f02-4d4d-80f7-3ee08c00547d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Fence">
+      <UniqueIdentifier>{2283406b-2e96-4b2e-89b6-d43805ff3b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\FrameBuffer">
+      <UniqueIdentifier>{b95427e5-56ea-4a6d-8365-a2758d140c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Image">
+      <UniqueIdentifier>{f2da1a78-1220-4a2e-853e-b1166df08760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\ImageView">
+      <UniqueIdentifier>{d04a5f09-7d30-4c25-9b91-9c2d9ec3f629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Instance">
+      <UniqueIdentifier>{15028adc-25fe-4211-b520-1f854b1a065a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Pipeline">
+      <UniqueIdentifier>{ff12116d-b27d-49b1-884c-9abc5807cb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\RenderPass">
+      <UniqueIdentifier>{6086b7b4-4b5c-4955-b109-6107e1dd61c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Sampler">
+      <UniqueIdentifier>{e4f8656b-5527-4b71-80bb-dc0937a16de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Semaphore">
+      <UniqueIdentifier>{b330c9c8-b94b-450f-8547-817223e3e6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Surface">
+      <UniqueIdentifier>{3db03246-a830-44bd-993d-6e14393b4dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\SwapChain">
+      <UniqueIdentifier>{4732cfec-6e86-487d-8066-aba9ca05095a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\UBO">
+      <UniqueIdentifier>{a63bb795-901a-406c-99e6-549d9d467453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{70ff764c-1285-4c9d-9429-7aa148621308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{aed54a07-83f5-45bd-8df3-fa162cc9258e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\Shaders\Simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resource\Shaders\Simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Engine.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Log.hpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\VULKANPCH.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Buffer.hpp">
+      <Filter>Source Files\Vulkan\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CommandBuffer.hpp">
+      <Filter>Source Files\Vulkan\CommandBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CommandPool.hpp">
+      <Filter>Source Files\Vulkan\CommandPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DebugMessenger.hpp">
+      <Filter>Source Files\Debug\VKMessenger</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DescriptorPool.hpp">
+      <Filter>Source Files\Vulkan\DescriptorPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DescriptorSet.hpp">
+      <Filter>Source Files\Vulkan\DescriptorSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Device.hpp">
+      <Filter>Source Files\Vulkan\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fence.hpp">
+      <Filter>Source Files\Vulkan\Fence</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FrameBuffer.hpp">
+      <Filter>Source Files\Vulkan\FrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image.hpp">
+      <Filter>Source Files\Vulkan\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ImageView.hpp">
+      <Filter>Source Files\Vulkan\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Instance.hpp">
+      <Filter>Source Files\Vulkan\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Pipeline.hpp">
+      <Filter>Source Files\Vulkan\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RenderPass.hpp">
+      <Filter>Source Files\Vulkan\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sampler.hpp">
+      <Filter>Source Files\Vulkan\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Semaphore.hpp">
+      <Filter>Source Files\Vulkan\Semaphore</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Surface.hpp">
+      <Filter>Source Files\Vulkan\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SwapChain.hpp">
+      <Filter>Source Files\Vulkan\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UBO.hpp">
+      <Filter>Source Files\Vulkan\UBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mesh.hpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Renderer.hpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Buffer.cpp">
+      <Filter>Source Files\Vulkan\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CommandBuffer.cpp">
+      <Filter>Source Files\Vulkan\CommandBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CommandPool.cpp">
+      <Filter>Source Files\Vulkan\CommandPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugMessenger.cpp">
+      <Filter>Source Files\Debug\VKMessenger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DescriptorPool.cpp">
+      <Filter>Source Files\Vulkan\DescriptorPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DescriptorSet.cpp">
+      <Filter>Source Files\Vulkan\DescriptorSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Device.cpp">
+      <Filter>Source Files\Vulkan\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fence.cpp">
+      <Filter>Source Files\Vulkan\Fence</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameBuffer.cpp">
+      <Filter>Source Files\Vulkan\FrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image.cpp">
+      <Filter>Source Files\Vulkan\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImageView.cpp">
+      <Filter>Source Files\Vulkan\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Instance.cpp">
+      <Filter>Source Files\Vulkan\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pipeline.cpp">
+      <Filter>Source Files\Vulkan\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderPass.cpp">
+      <Filter>Source Files\Vulkan\RenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sampler.cpp">
+      <Filter>Source Files\Vulkan\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Semaphore.cpp">
+      <Filter>Source Files\Vulkan\Semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Surface.cpp">
+      <Filter>Source Files\Vulkan\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SwapChain.cpp">
+      <Filter>Source Files\Vulkan\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UBO.cpp">
+      <Filter>Source Files\Vulkan\UBO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
